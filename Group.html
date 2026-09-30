@@ -4,7 +4,11 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>BiteBuddy - Create Group</title>
 
@@ -16,6 +20,7 @@
            ========================================= */
 
         :root {
+
             --dark-green: #003D2E;
             --dark-green-2: #002F24;
             --lime: #8AF23A;
@@ -31,6 +36,7 @@
             --text-gray: #68766F;
 
             --border: #DDE9E1;
+
         }
 
 
@@ -39,17 +45,23 @@
            ========================================= */
 
         * {
+
             margin: 0;
             padding: 0;
+
             box-sizing: border-box;
+
         }
 
+
         body {
+
             font-family: Arial, Helvetica, sans-serif;
 
             background-color: var(--cream);
 
             color: var(--text-dark);
+
         }
 
 
@@ -70,6 +82,7 @@
             justify-content: space-between;
 
             padding: 0 50px;
+
         }
 
 
@@ -82,7 +95,9 @@
             display: flex;
 
             align-items: center;
+
         }
+
 
         .logo-image {
 
@@ -93,6 +108,7 @@
             object-fit: contain;
 
             display: block;
+
         }
 
 
@@ -107,7 +123,9 @@
             align-items: center;
 
             gap: 30px;
+
         }
+
 
         .nav-links a {
 
@@ -118,18 +136,23 @@
             font-size: 13px;
 
             transition: 0.2s;
+
         }
+
 
         .nav-links a:hover {
 
             color: var(--lime);
+
         }
+
 
         .nav-links .active {
 
             color: var(--lime);
 
             font-weight: bold;
+
         }
 
 
@@ -158,6 +181,7 @@
             font-size: 11px;
 
             font-weight: bold;
+
         }
 
 
@@ -182,7 +206,9 @@
             font-size: 11px;
 
             color: #665F55;
+
         }
+
 
         .progress-step {
 
@@ -191,15 +217,20 @@
             align-items: center;
 
             gap: 6px;
-              font-weight: bold
+
+            font-weight: bold;
+
         }
+
 
         .progress-step.active {
 
             color: var(--dark-green);
 
             font-weight: bold;
+
         }
+
 
         .progress-number {
 
@@ -222,20 +253,25 @@
             font-size: 9px;
 
             font-weight: bold;
+
         }
+
 
         .progress-step.active .progress-number {
 
             background-color: var(--lime);
 
             color: var(--dark-green);
+
         }
+
 
         .arrow {
 
             color: #A49C91;
 
             font-size: 12px;
+
         }
 
 
@@ -250,6 +286,7 @@
             margin: 0 auto;
 
             padding: 42px 30px 70px;
+
         }
 
 
@@ -260,7 +297,9 @@
         .page-header {
 
             margin-bottom: 24px;
+
         }
+
 
         .page-header h1 {
 
@@ -273,13 +312,16 @@
             margin-bottom: 7px;
 
             letter-spacing: -0.5px;
+
         }
+
 
         .page-header p {
 
             font-size: 13px;
 
             color: var(--text-gray);
+
         }
 
 
@@ -294,6 +336,7 @@
             grid-template-columns: 1fr 1fr;
 
             gap: 20px;
+
         }
 
 
@@ -313,6 +356,7 @@
 
             box-shadow:
                 0 8px 25px rgba(0, 61, 46, 0.05);
+
         }
 
 
@@ -327,6 +371,7 @@
             color: var(--dark-green);
 
             margin-bottom: 20px;
+
         }
 
 
@@ -345,6 +390,7 @@
             color: var(--text-dark);
 
             margin-bottom: 8px;
+
         }
 
 
@@ -371,7 +417,9 @@
             color: var(--text-dark);
 
             background-color: white;
+
         }
+
 
         .text-input:focus {
 
@@ -379,6 +427,7 @@
 
             box-shadow:
                 0 0 0 3px rgba(138, 242, 58, 0.15);
+
         }
 
 
@@ -389,7 +438,9 @@
         .group-size {
 
             margin-top: 20px;
+
         }
+
 
         .size-options {
 
@@ -398,7 +449,9 @@
             gap: 8px;
 
             flex-wrap: wrap;
+
         }
+
 
         .size-btn {
 
@@ -419,13 +472,16 @@
             cursor: pointer;
 
             transition: 0.2s;
+
         }
+
 
         .size-btn:hover {
 
             border-color: var(--dark-green);
 
             color: var(--dark-green);
+
         }
 
 
@@ -440,6 +496,7 @@
             color: var(--dark-green);
 
             font-weight: bold;
+
         }
 
 
@@ -470,13 +527,16 @@
             cursor: pointer;
 
             transition: 0.2s;
+
         }
+
 
         .generate-btn:hover {
 
             background-color: #E95C35;
 
             transform: translateY(-1px);
+
         }
 
 
@@ -495,13 +555,16 @@
             gap: 10px;
 
             margin-bottom: 17px;
+
         }
+
 
         .invite-header h2 {
 
             font-size: 17px;
 
             color: var(--dark-green);
+
         }
 
 
@@ -526,6 +589,7 @@
             font-weight: bold;
 
             white-space: nowrap;
+
         }
 
 
@@ -544,7 +608,9 @@
             text-align: center;
 
             margin-bottom: 18px;
+
         }
+
 
         .invite-code small {
 
@@ -559,7 +625,9 @@
             letter-spacing: 0.08em;
 
             margin-bottom: 6px;
+
         }
+
 
         .invite-code strong {
 
@@ -568,6 +636,7 @@
             color: var(--dark-green);
 
             letter-spacing: 2px;
+
         }
 
 
@@ -582,6 +651,7 @@
             align-items: center;
 
             gap: 18px;
+
         }
 
 
@@ -612,12 +682,9 @@
             position: relative;
 
             overflow: hidden;
+
         }
 
-
-        /*
-           Simple visual QR-style pattern
-        */
 
         .qr-pattern {
 
@@ -649,6 +716,7 @@
                 );
 
             border: 5px solid var(--dark-green);
+
         }
 
 
@@ -659,7 +727,9 @@
         .invite-info {
 
             flex: 1;
+
         }
+
 
         .invite-info p {
 
@@ -670,6 +740,7 @@
             color: var(--text-gray);
 
             margin-bottom: 12px;
+
         }
 
 
@@ -702,13 +773,16 @@
             margin-bottom: 6px;
 
             transition: 0.2s;
+
         }
+
 
         .secondary-btn:hover {
 
             background-color: var(--light-green);
 
             border-color: var(--lime);
+
         }
 
 
@@ -733,11 +807,14 @@
             color: var(--text-gray);
 
             line-height: 1.5;
+
         }
+
 
         .team-note strong {
 
             color: var(--dark-green);
+
         }
 
 
@@ -750,21 +827,28 @@
             .navbar {
 
                 padding: 0 25px;
+
             }
+
 
             .nav-links {
 
                 gap: 15px;
+
             }
+
 
             .content-grid {
 
                 grid-template-columns: 1fr;
+
             }
+
 
             .main-container {
 
                 padding: 35px 25px 60px;
+
             }
 
         }
@@ -775,42 +859,55 @@
             .nav-links a {
 
                 display: none;
+
             }
+
 
             .profile {
 
                 display: none;
+
             }
+
 
             .progress-bar {
 
                 font-size: 9px;
 
                 gap: 5px;
+
             }
+
 
             .progress-step:nth-of-type(2),
             .progress-step:nth-of-type(3),
             .progress-step:nth-of-type(4) {
 
                 display: none;
+
             }
+
 
             .page-header h1 {
 
                 font-size: 24px;
+
             }
+
 
             .qr-section {
 
                 align-items: flex-start;
 
                 flex-direction: column;
+
             }
+
 
             .size-options {
 
                 gap: 6px;
+
             }
 
         }
@@ -833,6 +930,8 @@
         <!-- LOGO -->
 
         <div class="logo-area">
+
+            <!-- CLICK LOGO TO RETURN HOME -->
 
             <a href="index.html">
 
@@ -1007,6 +1106,7 @@
                     Team name
                 </label>
 
+
                 <input
                     type="text"
                     id="groupName"
@@ -1018,6 +1118,7 @@
                 <!-- GROUP SIZE -->
 
                 <div class="group-size">
+
 
                     <label>
                         Group size
@@ -1095,10 +1196,9 @@
                     class="generate-btn"
                     onclick="generateInvite()"
                 >
-
                     ✨ Generate Invite
-
                 </button>
+
 
 
                 <!-- TEAM NOTE -->
@@ -1134,6 +1234,7 @@
                         Your invite is ready!
                     </h2>
 
+
                     <span class="active-badge">
                         Active for 24 hours
                     </span>
@@ -1149,6 +1250,7 @@
                     <small>
                         INVITE CODE
                     </small>
+
 
                     <strong id="inviteCode">
                         BITE-482
@@ -1259,7 +1361,10 @@
 
 
             const teamName =
-                document.getElementById("groupName").value.trim();
+                document
+                    .getElementById("groupName")
+                    .value
+                    .trim();
 
 
             if (teamName === "") {
@@ -1267,12 +1372,11 @@
                 alert("Please enter a team name.");
 
                 return;
+
             }
 
 
-            /*
-               Generate a simple invite code
-            */
+            /* Generate a simple invite code */
 
             const randomNumber =
                 Math.floor(100 + Math.random() * 900);
@@ -1282,11 +1386,13 @@
                 "BITE-" + randomNumber;
 
 
-            document.getElementById("inviteCode")
+            document
+                .getElementById("inviteCode")
                 .textContent = inviteCode;
 
 
-            document.getElementById("inviteMessage")
+            document
+                .getElementById("inviteMessage")
                 .innerHTML =
                 "Friends can enter the code or scan the QR code to join <strong>"
                 + teamName
@@ -1309,7 +1415,8 @@
 
 
             const code =
-                document.getElementById("inviteCode")
+                document
+                    .getElementById("inviteCode")
                     .textContent;
 
 
@@ -1317,12 +1424,15 @@
                 "https://bitebuddy.com/join/" + code;
 
 
-            navigator.clipboard.writeText(inviteLink)
+            navigator.clipboard
+                .writeText(inviteLink)
+
                 .then(function() {
 
                     alert("Invite link copied!");
 
                 })
+
                 .catch(function() {
 
                     alert(
